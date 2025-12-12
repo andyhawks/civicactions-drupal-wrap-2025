@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CivicActions 2025 Wrapped</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+    .fade-in {
+      opacity: 0;
+      animation: fadeIn 1s forwards;
+    }
+    @keyframes fadeIn {
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body class="bg-gray-900 min-h-screen flex items-center justify-center">
+
+  <!-- Page 1 -->
+  <div id="page1" class="relative w-full h-screen bg-center bg-cover" style="background-image: url('civicactions-group.png');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center text-white space-y-6 px-4">
+      <img src="ca-logo.png" alt="CivicActions Logo" class="w-128 h-32 fade-in">
+      <h1 class="text-4xl md:text-6xl font-bold fade-in">Drupal Practice Area<br />2025 Wrapped!</h1>
+      <h2 class="text-xl md:text-2xl font-semibold fade-in" style="animation-delay: 3s;">What a year .... WE MADE IT!</h2>
+      <div id="page1-content" class="space-y-4 mt-6">
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 5s;">This year was all about <span class="text-3xl font-bold">challenges</span>.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 7s;">We met every challenge with <span class="text-3xl font-bold">openness, care, and balance</span>.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 9s;">We exemplified <span class="text-3xl font-bold">empathy through uncertainty</span>.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 11s;">We worked hard, we learned, and we grew <span class="text-3xl font-bold">... TOGETHER.</span></p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 13s;"><span class="text-3xl font-bold">We made this the most successful Drupal year at CivicActions ever!</span></p>
+      </div>
+      <button id="page1-button" class="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full hover:bg-purple-100 transition hidden mt-8" onclick="goToPage2()">
+        Let's celebrate our year!
+      </button>
+    </div>
+  </div>
+
+  <!-- Page 2 -->
+  <div id="page2" class="hidden w-full h-screen bg-center bg-cover" style="background-image: url('civicactions-group.png');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center text-white space-y-6 px-4">
+      <h1 class="text-4xl md:text-6xl font-bold fade-in">Contributors!</h1>
+      <h2 class="text-xl md:text-2xl font-semibold fade-in" style="animation-delay: 1s;">We are vital contributors to Drupal.</h2>
+      <div id="page2-content" class="space-y-4 mt-6">
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 2s;"><span class="text-3xl font-bold">Contrib First</span> became our mantra this year.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 4s;"><span class="text-3xl font-bold">70%</span> of our practice area contributes to Drupal.org.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 6s;">We made <span class="text-3xl font-bold">635 contributions</span> so far in 2025 ... and counting!</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 8s;">That's a <span class="text-3xl font-bold">175% increase</span> over last year!</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 10s;">Our top contributor was .... (Drum Roll please...)</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 13s;"><span class="text-3xl font-bold">Steve Wirt!</span></p>
+        <img src="steve_wirt.png" alt="Steve Wirt" class="w-32 h-32 rounded-full fade-in mx-auto" style="animation-delay: 13s;">
+      </div>
+      <button id="page2-button" class="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full hover:bg-purple-100 transition hidden mt-8" onclick="goToPage3()">
+        Next up ... Community
+      </button>
+    </div>
+  </div>
+
+  <!-- Page 3 -->
+  <div id="page3" class="hidden w-full h-screen bg-center bg-cover" style="background-image: url('drupalcon.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center text-white space-y-6 px-4">
+      <h1 class="text-4xl md:text-6xl font-bold fade-in">Community!</h1>
+      <h2 class="text-xl md:text-2xl font-semibold fade-in" style="animation-delay: 1s;">We are caretakers of our community.</h2>
+      <div id="page4-content" class="space-y-4 mt-6">
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 2s;">DKAN became a <span class="text-3xl font-bold">Digital Public Good!</span></p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 4s;">12 CAers are <span class="text-3xl font-bold">core contributors</span>.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 6s;">4 CA team members <span class="text-3xl font-bold">appeared on podcasts</span></p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 8s;">2 CA team members presented at <span class="text-3xl font-bold">DrupalCon and Drupal GovCon.</span></p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 10s;"><span class="text-3xl font-bold">Patrick & Daniel S.</span> help make Drupal GovCon happen.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 12s;">4 Drupal team members contributed <span class="text-3xl font-bold">CA blog posts.</span></p>
+      </div>
+      <button id="page3-button" class="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full hover:bg-purple-100 transition hidden mt-8" onclick="goToPage4()">
+        Next up ... Growth & Innovation
+      </button>
+    </div>
+  </div>
+
+  <!-- Page 4-->
+  <div id="page4" class="hidden w-full h-screen bg-center bg-cover" style="background-image: url('drupal-original.svg');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center text-white space-y-6 px-4">
+      <h1 class="text-4xl md:text-6xl font-bold fade-in">Growth & Innovation!</h1>
+      <h2 class="text-xl md:text-2xl font-semibold fade-in" style="animation-delay: 1s;">We are always learning, even at the cutting edge.</h2>
+      <div id="page4-content" class="space-y-4 mt-6">
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 2s;"><span class="text-3xl font-bold">AI</span> became an essential tool in our toolbox. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 4s;">The <span class="text-3xl font-bold">AI Migration module</span> is a major contribution! </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 6s;">We paved the way for <span class="text-3xl font-bold">Vertex AI</span> in Drupal. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 8s;">We've established a <span class="text-3xl font-bold">Python Practice Area</span>!!!</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 10s;">We've collectively earned <span class="text-3xl font-bold">47 certifications</span></p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 12s;">....and we have UX team members with <span class="text-3xl font-bold">Acquia certifications</span>!</p>
+      </div>
+      <button id="page4-button" class="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full hover:bg-purple-100 transition hidden mt-8" onclick="goToPage5()">
+        Next up ... 2026!
+      </button>
+    </div>
+  </div>
+
+  <!-- Page 5-->
+  <div id="page5" class="hidden w-full h-screen bg-center bg-cover" style="background-image: url('new-years.webp');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center text-white space-y-6 px-4">
+      <h1 class="text-4xl md:text-6xl font-bold fade-in">2026!!!</h1>
+      <h2 class="text-xl md:text-2xl font-semibold fade-in" style="animation-delay: 1s;">It'll be a banner year for Drupal! </h2>
+      <div id="page4-content" class="space-y-4 mt-6">
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 2s;"><span class="text-3xl font-bold">AI</span> will redefine and speed up how we work and collaborate.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 4s;"><span class="text-3xl font-bold">Drupal CMS 2.0</span> will bring many more people to our community. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 6s;"><span class="text-3xl font-bold">Canvas</span> will revolutionize page building and design.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 8s;">We'll be <span class="text-3xl font-bold">consolidating sites with AI</span> and integrating <span class="text-3xl font-bold">AI in DKAN</span>.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 10s;">The <span class="text-3xl font-bold">Site Template Marketplace</span> will turbocharge site building. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 12s;">Orchestration will come to Drupal with <span class="text-3xl font-bold">ECA and ActivePieces</span>.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 14s;"><span class="text-3xl font-bold">Accessibility First</span> will become even more essential. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 16s;">We'll be venturing into <span class="text-3xl font-bold">electronic health records</span>.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 18s;">We'll face more uncertainty and we'll get through it ... <span class="text-3xl font-bold" style="animation-delay: 18s;">together</span>.</p>
+      </div>
+      <button id="page5-button" class="bg-white text-purple-600 font-semibold py-3 px-6 rounded-full hover:bg-purple-100 transition hidden mt-8" onclick="goToPage6()">
+        Next up ... Thank you!
+      </button>
+    </div>
+  </div>
+
+  <!-- Page 6-->
+  <div id="page6" class="hidden w-full h-screen bg-center bg-cover" style="background-image: url('drupal-heart.jpg');">
+    <div class="absolute inset-0 bg-black bg-opacity-60 flex flex-col items-center justify-center text-center text-white space-y-6 px-4">
+      <h1 class="text-4xl md:text-6xl font-bold fade-in">Thank YOU!!!</h1>
+      <h2 class="text-xl md:text-2xl font-semibold fade-in" style="animation-delay: 1s;">From the bottom of my engineering heart. </h2>
+      <div id="page4-content" class="space-y-4 mt-6">
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 2s;"><span class="text-3xl font-bold">YOU</span> made this year the best possible in a challenging time.</p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 4s;"><span class="text-3xl font-bold">YOU</span> made a big impact this year. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 6s;"><span class="text-3xl font-bold">YOU</span> are an essential member of our CivicActions team. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 8s;"><span class="text-3xl font-bold">YOU</span> are appreciated for who you are, not just what you do. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 10s;"><span class="text-3xl font-bold">YOU</span> make <span class="text-3xl font-bold">US</span> better. </p>
+        <p class="text-lg md:text-2xl font-medium fade-in" style="animation-delay: 13s;"><span class="text-3xl font-bold">THANK YOU!!!</span></p>
+        <img src="emoji.svg" alt="Thank you!" class="w-32 h-32 rounded-full fade-in mx-auto" style="animation-delay: 13s;">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // Function to reveal content with a delay
+    function revealContent(pageId, buttonId) {
+      const content = document.querySelectorAll(`#${pageId} .fade-in`);
+      let delay = 0;
+      content.forEach((element) => {
+        setTimeout(() => {
+          element.classList.remove('opacity-0');
+        }, delay);
+        delay += 2000; // 2-second delay for each item
+      });
+
+      // Show the button after all content has been revealed
+      setTimeout(() => {
+        document.getElementById(buttonId).classList.remove('hidden');
+      }, delay);
+    }
+
+    // Page navigation functions
+    function goToPage2() {
+      document.getElementById('page1').classList.add('hidden');
+      document.getElementById('page2').classList.remove('hidden');
+      revealContent('page2', 'page2-button');
+    }
+
+    function goToPage3() {
+      document.getElementById('page2').classList.add('hidden');
+      document.getElementById('page3').classList.remove('hidden');
+      revealContent('page3', 'page3-button');
+    }
+
+    function goToPage4() {
+      document.getElementById('page3').classList.add('hidden');
+      document.getElementById('page4').classList.remove('hidden');
+      revealContent('page4', 'page4-button');
+    }
+
+    function goToPage5() {
+      document.getElementById('page4').classList.add('hidden');
+      document.getElementById('page5').classList.remove('hidden');
+      revealContent('page5', 'page5-button');
+    }
+
+    function goToPage6() {
+      document.getElementById('page5').classList.add('hidden');
+      document.getElementById('page6').classList.remove('hidden');
+      revealContent('page6', 'page6-button');
+    }
+
+    // Start animations for Page 1 on load
+    window.onload = () => {
+      revealContent('page1', 'page1-button');
+    };
+  </script>
+</body>
+</html>
+
